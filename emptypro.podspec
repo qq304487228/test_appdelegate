@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "just test project"
+  s.description  = "just test projectjust test projectjust test projectjust test projectjust test project"
 
   s.homepage     = "304487228@qq.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/qq304487228/test_appdelegate", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/qq304487228/test_appdelegate.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "emptyPro", "Classes/*.{h,m}"
+  s.source_files  = "emptyPro", "emptyPro/emptyPro/clas/*.{h,m}"
     #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -115,7 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-   s.framework  = "UIKit"
+   s.framework  = 'Foundation'
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
